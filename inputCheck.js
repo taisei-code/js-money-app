@@ -17,6 +17,7 @@ function inputCheck() {
   for (let i = 0; i < radio.length; i++) {
     if (radio[i].checked == true) {
       balance = radio[i].value;
+      console.log(balance);
       break;
     }
   }
